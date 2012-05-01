@@ -353,3 +353,5 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 
 -- Network manager applet
 os.execute("nm-applet &")
+-- Run conky
+os.execute("conky &")
