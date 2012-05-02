@@ -355,3 +355,7 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 os.execute("nm-applet &")
 -- Run conky
 os.execute("conky &")
+
+-- Transparency support using unagi
+--awful.util.spawn_with_shell("unagi &")
+
