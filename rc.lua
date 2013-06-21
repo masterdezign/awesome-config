@@ -63,8 +63,11 @@ myawesomemenu = {
 }
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
+                                    { "Firefox", "firefox" },
+                                    { "Thunderbird", "thunderbird" },
                                     { "Debian", debian.menu.Debian_menu.Debian },
-                                    { "open terminal", terminal }
+                                    { "open terminal", terminal },
+                                    { "Log out", awful.util.getdir("config") .. "/shutdown-dialog.sh" },
                                   }
                         })
 
